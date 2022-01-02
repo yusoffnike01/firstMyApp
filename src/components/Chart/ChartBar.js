@@ -12,7 +12,7 @@ const ChartBar=(props)=>{
   return (
     <div className="Chart-bar">
       <div className="chart-bar__inner">
-        {console.log(barFillHeight)}
+
         <div className="chart-bar__fill" style={{height: barFillHeight}}></div>
       </div>
       <div className="chart-bar__label">{props.label}</div>
